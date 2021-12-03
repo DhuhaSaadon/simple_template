@@ -1,0 +1,270 @@
+body{
+    margin: 0;
+}
+
+.content{
+    width: 1200px;
+    margin: auto;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+}
+
+.header .logo{
+    float: left;
+}
+ .header .logo h3{
+    color: #fff;
+    margin: 0;
+    padding-top: 25px;
+    text-transform: uppercase;
+    font-size: 25px;
+ }
+
+.header .nav{
+    float: right;
+}
+
+.header .nav ul li{
+    float: left;
+    padding: 15px;
+}
+
+.header .nav ul li a{
+    font-size: 18px;
+    color: #ddd;
+    text-decoration: none;
+}
+.header .nav ul li a:hover{
+    color: #ccc;
+}
+
+.clear{
+    clear: both;
+}
+
+/* About */
+
+.about{
+    background-image: url(image/img.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+
+
+.about p{
+    margin: 0;
+    padding-top: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    line-height: 2.1;
+}
+
+.about button {
+    background: #d84780;
+    border: none;
+    text-align: center;
+    width: 220px;
+    height: 80px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 15px;
+    margin-top: -15px;
+}
+
+.about button:hover{
+    background: none;
+    border: 2px solid #d84780;
+    cursor: pointer;
+}
+
+    /* blog */
+
+.blog{
+    width: 100%;
+    height: 1590px;
+    background-color: #222;
+    padding-top: 20px;
+    padding-bottom: 40px
+}
+
+.blog .part{
+    width: 31%;
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.blog .part:first-child,
+.blog .part :nth-child(){
+    margin-left: 0;
+}
+
+.blog .part img{
+    width: 100%;
+    height: 357.38px;
+}
+
+.blog .part p{
+    position: relative;
+    text-align: center;
+    padding: 25px;
+    margin: 0;
+    background-color: #fff;
+    height: 150px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    line-height: 1.7;
+    padding-top: 40px;
+}
+
+.blog .part button{
+    position: relative;
+    background-color: #d84780;
+    border: 0;
+    width: 180px;
+    height: 60px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.blog .writing{
+    width: 42%;
+    height: 150px;
+    color: #fff;
+    float: left;
+    margin: 2%;
+    margin-right: 6%;
+}
+.blog .writing i{
+    width: 50px;
+    height: 100%;
+    float: left;
+    padding-right: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.blog .writing p{
+    font-family: Tahoma;
+    font-size: 15px;
+    color: #777;
+}
+
+    /* contact */
+
+    .contact{
+        width: 100%;
+        height: 500px;
+        background-color: #d84780;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .contact h2{
+        margin: 0;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+
+.contact p{
+    font-family: Tahoma;
+    word-spacing: 10px;
+    color: #f3f3f3;
+    font-size: 19px;
+}
+
+.mauris{
+    width: 80%;
+    margin: auto;
+}
+
+form input{
+    display: inline-block;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+input:hover, input:focus{
+    border-left: 5px solid #000;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 10px;
+    outline: 0;
+    padding-left: 10px;
+}
+
+form button{
+    background: none;
+    border: 0;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+form button:hover{
+    border:  1px solid #000;
+}
+
+    /* footer */
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    color: #777;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.footer p{
+    margin: 0;
+    font-size: 20px;
+}
+
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    border:  2px solid #777;
+    cursor: pointer;
+}
+.footer ul li:hover{
+    border:  2px solid #fff;
+}
+
+
+
+
+
+
